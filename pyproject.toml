@@ -1,0 +1,9 @@
+[project]
+name = "pedidos-clean-architecture"
+version = "0.1.0"
+description = "Módulo de pedidos em Python com Clean Architecture: domínio, casos de uso e infraestrutura."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
